@@ -1,0 +1,13 @@
+# ──────────────────────────────────────────────────
+# Problem     Loops
+# Difficulty  Easy
+# Subdomain   Introduction
+# Platform    HackerRank
+# Language    pypy3
+# Status      Accepted
+# Submitted   2026-06-30, 04:33 p.m.
+# ──────────────────────────────────────────────────
+
+n = int(input())
+for i in range(n):
+    print(i*i)
