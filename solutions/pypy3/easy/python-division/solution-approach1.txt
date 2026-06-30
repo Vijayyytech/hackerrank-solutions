@@ -1,0 +1,14 @@
+# ──────────────────────────────────────────────────
+# Problem     Python: Division
+# Difficulty  Easy
+# Subdomain   Introduction
+# Platform    HackerRank
+# Language    pypy3
+# Status      Accepted
+# Submitted   2026-06-30, 04:34 p.m.
+# ──────────────────────────────────────────────────
+
+a = int(input())
+b = int(input())
+print(a//b)
+print(a/b)
