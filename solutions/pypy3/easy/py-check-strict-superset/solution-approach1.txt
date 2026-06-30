@@ -1,0 +1,18 @@
+# ──────────────────────────────────────────────────
+# Problem     Check Strict Superset
+# Difficulty  Easy
+# Subdomain   Sets
+# Platform    HackerRank
+# Language    pypy3
+# Status      Accepted
+# Submitted   2026-06-30, 04:20 p.m.
+# ──────────────────────────────────────────────────
+
+A = set(map(int,input().split()))
+n = int(input())
+result = True
+for i in range(n):
+    other_set = set(map(int,input().split()))
+    if not(A>other_set):
+        result = False
+print(result)        
