@@ -1,0 +1,15 @@
+# ──────────────────────────────────────────────────
+# Problem     Find the Runner-Up Score!  
+# Difficulty  Easy
+# Subdomain   Basic Data Types
+# Platform    HackerRank
+# Language    pypy3
+# Status      Accepted
+# Submitted   2026-06-30, 04:27 p.m.
+# ──────────────────────────────────────────────────
+
+n = int(input())
+arr = list(map(int, input().split()))
+lst = list(set(arr))
+lst.sort()
+print(lst[-2])
